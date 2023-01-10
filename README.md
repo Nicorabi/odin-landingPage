@@ -1,3 +1,3 @@
 # odin-landingPage
 
-Odin Project landing page Project.
+Odin Project landing page project.
