@@ -6,52 +6,27 @@
     border-color: black;
 }
 
-.container {
+.navbar {
     display: flex;
-}
-
-h2 {
-    display: flex;
-    flex: 1;
-    font-size: 24px;
-    color: #f9faf8;
+    background-color: #1f2937;
 }
 
 ul {
     display: flex;
+    margin-left: auto;
     list-style-type: none;
+    margin-right: 300px;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-li {
     margin-left: 20px;
-}
-
-.box {
-    border: 1px solid;
-    border-color: black;
-    margin: 2%;
-    padding: 2%;
-}
-
-.navbar {
-    background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header > .container > h1 {
-    font-weight: bolder;
-    font-size: 48px;
+.logo {
+    margin-left: 300px;
+    font-size: 24px;
     color: #f9faf8;
-}
-
-.button {
-    background-color: #3882f6;
-    color: white;
 }
