@@ -12,25 +12,13 @@ body {
     margin: 0 auto;
 }
 
-.navbar ul {
-    display: flex;
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
 .navbar {
     background: #1f2937;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
+.navbar ul {
+    display: flex;
+    list-style-type: none;
 }
 
 .navbar .container {
@@ -48,6 +36,12 @@ a {
     background-color: #1f2937;
     min-height: 450px;
     padding-left: 160px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header h1 {
@@ -72,6 +66,18 @@ a {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -81,22 +87,19 @@ button {
     margin-top: 10px;
 }
 
-.header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.boxes .container {
-    display: flex;
-    justify-content: space-between;
+.boxes {
     background-color: #f9faf8;
     color: #1f2937;
     min-height: 500px;
 }
 
-.box {
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxes .box {
     width: 300px;
     height: 160px;
     border: 2px solid #3882f6;
