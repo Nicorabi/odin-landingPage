@@ -95,20 +95,24 @@ button {
     display: flex;
 }
 
-.boxes .box {
-    width: 360px;
-    height: 160px;
-    border: 2px solid #3882f6;
-    border-radius: 14px;
-}
-
-.boxes h2 {
+.boxes .header1 {
     font-size: 32px;
     font-weight: bolder;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-.boxes p {
+.boxes .paragraph {
     font-size: 18px;
     color: #1f2937;
+}
+
+.boxes span {  
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 14px;
 }
