@@ -93,8 +93,6 @@ button {
 
 .boxes .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .boxes .box {
