@@ -195,8 +195,9 @@ a {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 7px 28px;
+    padding: 7px 32px;
     border-radius: 8px;
     font-size: 18px;
     margin-top: 10px;
+    border: 1px solid #3882f6;
 }
