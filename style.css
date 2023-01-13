@@ -119,7 +119,7 @@ body {
 }
 
 .quote p {
-    font-weight: light;
+    font-weight: lighter;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -168,7 +168,7 @@ body {
 .bottom p {
     font-size: 18px;
     color: #e5e7eb;
-    font-weight: light;
+    font-weight: lighter;
 }
 
 .footer {
